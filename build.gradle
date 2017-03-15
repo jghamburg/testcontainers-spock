@@ -16,4 +16,7 @@ dependencies {
     testCompile group: 'org.objenesis', name: 'objenesis', version: '2.4'
     testCompile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.2'
     testCompile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.1'
+    testCompile 'com.zaxxer:HikariCP:2.6.1'
+
+    runtime group: 'org.postgresql', name: 'postgresql', version: '42.0.0'
 }
